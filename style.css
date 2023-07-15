@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+:root{
+    background-color: #050218;
+    margin: 1.5%;
+}
+body{
+    widows: 100%;
+    height: 100%;
+    color: aqua;
+    
+}
+h2{
+    font-weight: 600;
+    font-size: 25px;
+    padding: auto;
+}
+li{
+    text-decoration: none;
+    color: blueviolet;
+}
