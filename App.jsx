@@ -61,7 +61,7 @@ export default function App() {
         {todos.map((todo) => (
           <li key={todo.id}>
             <label>
-              <input
+              <input className='check' 
                 type="checkbox"
                 checked={todo.completed}
                 onChange={(e) => toggleTodo(todo.id, e.target.checked)}
@@ -70,7 +70,7 @@ export default function App() {
             </label>
             <button
               onClick={() => deleteTodo(todo.id)}
-              className="btn">
+              className="btn del">
               Delete
             </button>
           </li>

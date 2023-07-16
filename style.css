@@ -23,3 +23,9 @@ li{
     text-decoration: none;
     color: blueviolet;
 }
+.del{
+    margin-left: 20px;
+}
+.check{
+    margin-right: 10px;
+}
